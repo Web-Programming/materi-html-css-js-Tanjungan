@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <!-- Script Kalau Banyak Jangan Taruh Diatas (Taruh Dibawah [body]) -->
+    <script>
+        //Output Console
+        console.log("Hallo JavaScript");
+        console.error("Ini pesan eror");
+        console.table(["Apel","Jeruk","Semangka"]);
+
+        //Output Document
+        //alert("Halo Kuin, Kamu Mokel ga?");
+        
+    </script>
+</head>
+<body>
+    <h1>Ini Element H1</h1>
+    <div>Ini Element Div</div>
+    <p id="demo"></p>
+    <script>
+        // var nama = prompt("Masukan nama Anda");
+        // console.log("Hallo" + nama );
+        // var isJomblo = confirm("Apakah anda Jomblo, kalo ya, mau lanjut?");
+        // if(isJomblo){
+        //    console.log("Ciee Jomblo");
+        // } else{
+        //    console.log("Bye....")
+        // }
+        
+        // Output Document - DOM
+        document.write("<h2>Hallo...</h2>");
+        document.getElementById("demo").innerHTML = "Nama Saya Taupik";
+        document.getElementById("demo").innerHTML += "<br>Saya Bapak Kuin</br>";
+
+        //Variabel
+        var nama = "Taufik Qurahman"; //string
+        var npm = 242212399512; //int
+        var isMale = true; //bolean
+        var hobi = ["reading","Writing","Dancing"]; //array
+        var nilaikuliah = {
+            "namaMK":"PAW 1",
+            "nilaiHuruf":"A",
+            "nilaiAngka":"90"
+        }; //object
+    </script>
+</body>
+</html>
