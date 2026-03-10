@@ -1,0 +1,60 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;/* mengatur jarak tapi */
+    color: black;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0; /* Mengatur jarak tepi atas & tepi bawah 20px */
+    text-align: center;
+}
+
+header img{
+    border-radius: 8px;
+    max-width: 90%; /* mengatur panjang gambar max */
+    height: auto;
+}
+
+hr{
+    color: #2c3e50;
+}
+
+nav{
+    padding: 10px 0;
+    background-color: white;
+}
+
+nav a{
+    color: black;
+    text-decoration: none; /* agar tidak ada underline pada link */
+    margin: 0 15px;
+    font-weight: bold; /* font cetak tebal */
+}
+
+nav a:hover{
+    background-color: #2c3e50;
+    color: red;
+    border-bottom: 2px solid #2c3e50;
+}
+
+main{
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section{
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+section img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
